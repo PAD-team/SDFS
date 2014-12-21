@@ -18,3 +18,9 @@ configurations
 	number of replications
 	ip:port list of servers
 	
+
+
+
+how to compile
+	$ cd SDFS
+	$ mvn compile
