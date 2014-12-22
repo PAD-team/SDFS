@@ -167,7 +167,7 @@ public class Configuration {
 			peerList = new ArrayList<Map<String,String>>();
 			Map<String, String> m = new HashMap<String,String>();
 			m.put("ip", R.basicConfigIP);
-			m.put("port", R.basicConfigIP);
+			m.put("port", R.basicConfigPort);
 			peerList.add(m);peerList.add(m);peerList.add(m);
 					
 			
