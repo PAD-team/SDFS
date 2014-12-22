@@ -12,7 +12,15 @@ public class App
         	Loading Configuration
          */
         System.out.print( "loading configuration..." );
-        Configuration C = new Configuration();
+        try{
+	        Configuration C = new Configuration();
+ 		}
+ 		catch(ConfigurationException e){
+ 			System.out.println(" ERROR");
+ 			System.out.println(e);
+ 			return;
+ 		}
+
  		System.out.println( " DONE" );
 
         /*
