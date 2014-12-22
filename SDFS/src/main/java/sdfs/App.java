@@ -12,8 +12,9 @@ public class App
         	Loading Configuration
          */
         System.out.print( "loading configuration..." );
+        Configuration C;
         try{
-	        Configuration C = new Configuration();
+	        C = new Configuration();
  		}
  		catch(ConfigurationException e){
  			System.out.println(" ERROR");
@@ -27,6 +28,13 @@ public class App
         	Start Simple Distributed File System
          */
         System.out.println("starting SDFS...");
+      
+        
+        String ip = C.getIp();
+        if(ip != null && !ip.equals( R.basicConfigIP ))
+        	System.out.println("ip: "+ ip);
+        System.out.println("port: "+ C.getPort());
+        System.out.println("replicaNumber: "+ C.getReplicaNum());
 
         
     }
