@@ -22,5 +22,11 @@ configurations
 
 
 how to compile
+	
 	$ cd SDFS
 	$ mvn compile
+	$ mvn package
+
+how to execute
+
+	$ java -jar target/SDFS-0.1.jar
