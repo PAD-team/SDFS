@@ -23,10 +23,16 @@ configurations
 
 how to compile
 	
-	$ cd SDFS
-	$ mvn compile
-	$ mvn package
+	$ make compile
 
 how to execute
 
-	$ java -jar target/SDFS-0.1.jar
+	$ java -jar SDFS/target/SDFS-0.1.jar
+
+
+
+per sublime io mi sono fatto questo build system:
+	{
+		"shell_cmd": "cd /home/mz/git/SDFS/ ; make compile"
+	}
+così che mi compili correttamente in ogni directory in cui mi trovo. c'è un modo piu' furbo? XD
