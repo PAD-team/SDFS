@@ -27,7 +27,7 @@ how to compile
 
 how to execute
 
-	$ java -jar SDFS/target/SDFS-0.1.jar
+	$ java -jar SDFS/target/SDFS-0.1-jar-with-dependencies.jar
 
 
 
