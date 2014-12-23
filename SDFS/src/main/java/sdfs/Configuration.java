@@ -89,8 +89,9 @@ public class Configuration {
 		 * deserialize and create config object
 		 */
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
-		config = gson.fromJson(json, Config.class);
+		config = gson.fromJson(json, Configuration.Config.class);
 		
+
 	}
 
 	private void init() throws IOException{
@@ -169,7 +170,6 @@ public class Configuration {
 			m.put("ip", R.basicConfigIP);
 			m.put("port", R.basicConfigPort);
 			peerList.add(m);peerList.add(m);peerList.add(m);
-					
 			
 		}
 	}
