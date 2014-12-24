@@ -31,8 +31,7 @@ how to execute
 
 
 
-per sublime io mi sono fatto questo build system:
-	{
-		"shell_cmd": "cd /home/mz/git/SDFS/ ; make compile"
-	}
-così che mi compili correttamente in ogni directory in cui mi trovo. c'è un modo piu' furbo? XD
+
+per importare il progetto in eclipse installa il plugin m2e  (maven to 
+eclipse) e poi fai  file->import  maven project   ( se non ricordo male 
+)
